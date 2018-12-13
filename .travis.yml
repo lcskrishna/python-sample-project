@@ -3,7 +3,7 @@
 language : python
 sudo : true
 os : 
-  - linux
+    - linux
   
 python : 
   - "2.7"
@@ -12,15 +12,15 @@ python :
 addons:
     apt : 
         sources:
-          -ubuntu-tool-chain-r-test  
+            -ubuntu-tool-chain-r-test  
   
 before_install :
-  - sudo apt-get install -y python-setuptools
+    - sudo apt-get install -y python-setuptools
 
 branches:
-  master
+    master
  
- script : 
+script : 
   - sudo python setup.py install
   - cd test
   - python test_package.py
