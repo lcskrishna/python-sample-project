@@ -9,14 +9,10 @@ python :
   - "2.7"
   - "3.4"
   
-addons:
-    apt : 
-        sources:
-            -ubuntu-tool-chain-r-test  
-  
-before_install :
-    - 
 
+before_install :
+  - "pip install -U pip"
+  - "python setup.py install"
 branches:
     master
  
