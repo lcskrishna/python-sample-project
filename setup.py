@@ -36,6 +36,6 @@ setup(
     name='python-sample-project',
     version='0.1',
     cmdclass=cmd_class,
-    packages=['sample',],
+    packages=['sampletest',],
     long_description=open('README.md').read(),
     )
