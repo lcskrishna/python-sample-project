@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lcskrishna/python-sample-project.svg?branch=master)](https://travis-ci.org/lcskrishna/python-sample-project)
+
 # python-sample-project
 This is a toy example on how to implement a python project package.
 
