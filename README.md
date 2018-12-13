@@ -15,6 +15,13 @@ To install this as a python package, use the following:
 ```
 setup.py extends a class of 'install' that can be modified further according to the project requirements.
 
+## Running the tests.
+To run the tests to make sure the above command installs the sampleproject folder run the following command. 
+
+```
+% python test/test_package.py
+```
+
 ## Uninstall the project
 
 To uninstall the project, use the following:
