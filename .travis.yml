@@ -15,12 +15,11 @@ addons:
             -ubuntu-tool-chain-r-test  
   
 before_install :
-    - sudo apt-get install -y python-setuptools
+    - sudo python setup.py install
 
 branches:
     master
  
 script : 
-  - sudo python setup.py install
   - cd test
   - python test_package.py
