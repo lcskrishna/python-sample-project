@@ -7,12 +7,10 @@ os :
   
 python : 
   - "2.7"
-  - "3.4"
-  
 
 before_install :
   - "pip install -U pip"
-  - "python setup.py install"
+
 branches:
     master
  
